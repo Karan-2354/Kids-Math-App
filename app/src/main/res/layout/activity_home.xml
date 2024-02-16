@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/cloud1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:src="@drawable/learn"
+        android:layout_marginTop="108dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/finger_paint"
+        android:text="Kid's Math"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/plus"
+            android:background="@drawable/border"
+           />
+        <ImageView
+            android:id="@+id/minus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/minus"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/mul"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mul"
+            android:background="@drawable/border"
+            />
+        <ImageView
+            android:id="@+id/div"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/divison"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
